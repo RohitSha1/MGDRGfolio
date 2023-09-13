@@ -42,8 +42,8 @@ const Contact = () => {
     } else if (mobile === "") {
       toast.error("mobile is require");
     } else {
-      // https://mgrupeshserverside.onrender.com
-        const res = await fetch("https://mgrupeshserverside.onrender.com/emailregister", {
+      
+        const res = await fetch("https://devrohitsahserverside.onrender.com/emailregister", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
