@@ -43,7 +43,7 @@ const Experience = () => {
                   return (
                     <Card
                       key={index}
-                      style={{ width: '32rem', height: '28rem', cursor: 'pointer'}}
+                      style={{ width: '32rem', height: '25rem', cursor: 'pointer'}}
                       className={`mt-4 mb-4 card ${isExpanded ? 'expanded' : ''}`}
                     >
                       <Card.Title className='text-right'style={{ fontWeight: 'extrabold', marginTop: '20px' }}>{el.projectName}</Card.Title>
